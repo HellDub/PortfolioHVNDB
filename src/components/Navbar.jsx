@@ -60,8 +60,6 @@ gap:10px;
 
 
 
-
-
 const Navbar = () => {
   return (
     <Section>

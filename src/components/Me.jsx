@@ -17,15 +17,35 @@ height: 100vh;
 scroll-snap-align: center;
 display: flex;
 justify-content: center;
+gap:80px;
 `
+
 const Line = styled.img`
 height: 28px;
 color:#6EA4E3;
 
 `
+const Img = styled.img `
+width: 650px;
+height: auto;
+object-fit:contain;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+margin:auto;
+
+
+
+`
+
+
 
 const Left = styled.div `
-flex:1;
+flex:2;
+position: relative;
+
 
 
 `
@@ -73,7 +93,7 @@ font-weight:600;
 
 `
 const Right = styled.div `
-flex:1;
+flex:2;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -87,7 +107,7 @@ const Me = () => {
 
        <Container>
         <Left>
-
+          <Img alt="my-designs" src="./images/Designs.png" />
         </Left>
         <Right>
         <Title>
