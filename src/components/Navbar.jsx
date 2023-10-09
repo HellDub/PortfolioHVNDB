@@ -67,7 +67,7 @@ const Navbar = () => {
     <Section>
         <Container>
             <Links>
-            <Logo src="/images/Logo.svg" />
+            <Logo alt="heavendub_logo" src="/images/Logo.svg" />
              <List>
               <ListItem >
               Home
@@ -79,12 +79,12 @@ const Navbar = () => {
                 My Works
               </ListItem>
               <ListItem>
-                Contact 
+                Contact
               </ListItem>
              </List>
             </Links>
             <Icons>
-              <Icon src='/images/search.svg'/>
+              <Icon alt="search_icon"  src='/images/search.svg'/>
               <Button>Hire Me</Button>
             </Icons>
         </Container>

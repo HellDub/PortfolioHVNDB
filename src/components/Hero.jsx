@@ -91,7 +91,7 @@ animation: animate 2s infinite ease alternate ;
   to{
     transform: translateY(60px);
   }
-  
+
 }
 
 
@@ -105,21 +105,21 @@ position: relative;
 const Hero = () => {
   return (
     <Section>
-       <Navbar/>     
+       <Navbar/>
        <Container>
         <Left>
           <Title>
             Creativity , Insight , Knowledge
           </Title>
           <Doings>
-              <Job src='./images/Work.svg' />
+              <Job alt='job_icon' src='./images/Work.svg' />
               <Subtitle>What do i do?</Subtitle>
           </Doings>
           <Desc>I create insightful UI/UX Designs, i make websites and i have a large skillset.</Desc>
           <Button>Find out more</Button>
         </Left>
         <Right>
-            <Img src='./images/persona.svg' />
+            <Img alt='HeroLogo' src='./images/persona.svg' />
         </Right>
        </Container>
     </Section>

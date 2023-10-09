@@ -84,26 +84,26 @@ gap:2px;
 const Me = () => {
   return (
     <Section>
-      
+
        <Container>
         <Left>
-       
+
         </Left>
         <Right>
         <Title>
           Shaping the ideas, Creating the styles.
           </Title>
           <Doings>
-              <Line src='./images/Line.svg' />
+              <Line alt="line_icon"  src='./images/Line.svg' />
               <Subtitle>Who am i?</Subtitle>
           </Doings>
           <Desc>The creative thinking your project needs.</Desc>
           <Button>Learn more</Button>
-            
+
         </Right>
        </Container>
-    </Section> 
-  ) 
+    </Section>
+  )
 }
 
 export default Me
